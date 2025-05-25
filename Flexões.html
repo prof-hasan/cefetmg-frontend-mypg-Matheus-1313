@@ -10,6 +10,7 @@
         h1 {
             text-align:center;
             font-size:50px;
+            margin-top: 5%;
 
         }
         p {
@@ -17,15 +18,16 @@
             font-size:27px;
             margin-left: 10%;
             margin-right: 10%;
+           
         }
         body {
-            text-align:justify;
-            
+           text-align:justify;
+           background-image: linear-gradient(to left top, rgb(0, 0, 0), rgb(119, 32, 224));
         }
         h2 {
-            text-align:justify;
+            text-align:center;
             margin-top:5%;
-            margin-left: 10%;
+            margin-left: 0%;
             font-size:35px;
         }
         ul {
@@ -35,47 +37,76 @@
         #flexao1 {
             display:block;
             margin-left: 10%;
-            width: 500px;
-            margin-bottom: 190px;
+            width: 300px;
+            margin-bottom: 130px;
+            border: solid black 2px;
             
         }
         #flexoes{
             display: flex;
         }
-        h3 {
+        .titulosflexoes {
          
-            text-align:justify;
-            margin-top:5%;
-            margin-left: 55%;
+            text-align:center;
             font-size:35px;
-            margin-bottom: 0%;
+            margin-bottom: 6%;
+            margin-top: 6%;
         }
 
-        #antesh3 {
+        .txtflexao {
             text-align:justify;
             font-size:27px;
-            margin-left: 10%;
-            margin-right: 10%;
-            margin-top: 13%
+            margin-top: 6%;
+            
         }
 
+        .imgflexao {
+            display: block;
+            margin-left:35%;
+            width: 450px;
+            border: solid black 2px;
+            padding: 0px;
+        }
+
+        #link {
+           text-align:justify;
+           font-size:27px;
+           margin-left: 10%;
+           margin-right: 10%; 
+        }
+
+        #lastp {
+            margin-bottom: 20%;
+        }
+
+        #paginatoda {
+            background-color: rgba(255, 255, 255, 0.726);
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 5%;
+        }
+
+       
+       
     </style>
 </head>
 <body>
+    <div id = "paginatoda">
+
+    <p id = "espaco">ㅤ</p>
+        
     <h1>O que é uma flexão?</h1>
 
-    <p>
-        A flexão é um exercício que trabalha principalmente os <strong>músculos do peitoral, dos ombros, do core (abdômen e lombar) e dos braços</strong>. Ela faz parte de várias rotinas de treinamento e pode ser praticada em qualquer lugar. Apesar de parecer simples, a flexão exige concentração no alinhamento corporal e na respiração. Com o tempo, esse exercício contribui para o <strong>ganho de força, estabilidade e resistência</strong>, beneficiando atletas iniciantes ou experientes em diferentes modalidades esportivas. A palavra "flexão" vem do latim flexio, flexionis, que significa "ação de dobrar", derivado de flectere ("dobrar, curvar").
+    <p> A flexão é um exercício que trabalha principalmente os <strong>músculos do peitoral, dos ombros, do core (abdômen e lombar) e dos braços</strong>. Ela faz parte de várias rotinas de treinamento e pode ser praticada em qualquer lugar. Apesar de parecer simples, a flexão exige concentração no alinhamento corporal e na respiração. Com o tempo, esse exercício contribui para o <strong>ganho de força, estabilidade e resistência</strong>, beneficiando atletas iniciantes ou experientes em diferentes modalidades esportivas. A palavra "flexão" vem do latim flexio, flexionis, que significa "ação de dobrar", derivado de flectere ("dobrar, curvar"). </p> 
 
-    </p>
+    <a id="link" href="https://pt.wikipedia.org/wiki/Flex%C3%A3o">Saiba mais clicando aqui</a>
+
     <h2>Quais são os tipos de flexão?</h2>
-    <p>
-        Existem diversos tipos de flexão aos quais você pode fazer, e caso faça-as de forma constante, observará diversos benefícios, tanto mentais, tanto físicos. Aqui detalharei um pouco sobre 10 tipos de Flexão, que são:
-    </p>
+    <p>Existem diversos tipos de flexão aos quais você pode fazer, e caso faça-as de forma constante, observará diversos benefícios, tanto mentais, tanto físicos. Aqui detalharei um pouco sobre 10 tipos de Flexão, que são:</p>
     <div id="flexoes">
         
         <ul>
-            <li>Flexão Tradicional (Flexão Padrão)</li>
+            <li></a>Flexão Tradicional (Flexão Padrão)</li>
             <li>Flexão com Joelhos no Chão (Flexão Modificada)</li>
             <li>Flexão Diamante (Diamond Push-Up)</li>
             <li>Flexão Declinada</li>
@@ -86,23 +117,72 @@
             <li>Flexão Hindu (Hindu Push-Up)</li>
             <li>Flexão Pseudo-Planche</li>
         </ul>
-        <img id = "flexao1" src = "https://img.freepik.com/fotos-premium/exercicio-de-flexao-de-forca-de-flexao-de-jovem-jovem-com-halteres-em-um-treino-de-ginastica_600776-22010.jpg">
+        <img id = "flexao1" src = "https://do1pouckcwxot.cloudfront.net/brasil/uploads/2017/05/04171655/flexao-de-bracos2.jpg">
     </div>
 
-    <h3>Flexão Tradicional (Flexão Padrão)</h3>
+    <h3 class="titulosflexoes">Flexão Tradicional (Flexão Padrão)</h3>
 
-    <p id = "antesh3">
-        A flexão tradicional, também conhecida como flexão de braço ou “push-up”, é um dos exercícios mais clássicos e eficazes do treinamento físico. Ela trabalha principalmente o peitoral, os tríceps e os ombros, além de ativar o core, os glúteos e a região lombar para estabilização.
-    </p>
+    <img class = "imgflexao" src = "https://homemnoespelho.com.br/wp-content/uploads/2021/07/Homem-No-Espelho-Flexao-de-braco.gif">
 
-    <p>
-        Para executá-la corretamente, posicione as mãos no chão alinhadas à largura dos ombros, mantenha o corpo reto dos calcanhares até a cabeça, contraia o abdômen e desça lentamente até que o peito fique próximo ao chão. Em seguida, empurre o solo até retornar à posição inicial. O movimento deve ser controlado e contínuo, sem deixar o quadril subir ou cair.
-    </p>
+    <p class = "txtflexao">A <strong>flexão tradicional</strong> é um dos exercícios mais conhecidos do treinamento com o peso corporal. Para realizá-la, posicione as <strong>mãos alinhadas com os ombros</strong> e mantenha o corpo reto da cabeça aos pés. Abaixe até o <strong>peito quase tocar o chão</strong> e retorne. Trabalha principalmente o <strong>peitoral maior, tríceps e deltoides anteriores</strong>. O <strong>core</strong> é ativado para estabilização. É importante manter o corpo firme, sem arquear as costas ou levantar o quadril. É ideal para <strong>iniciantes e intermediários</strong> pela simplicidade e eficiência.</p>
 
-    <p>
-        A flexão fortalece a musculatura superior, melhora a postura, aumenta a resistência e ajuda na queima de calorias. Pode ser feita em qualquer lugar, já que não exige equipamentos. É indicada tanto para iniciantes quanto para atletas, sendo facilmente adaptável em intensidade.
-    </p>
+    <h4 class="titulosflexoes">Flexão com Joelhos no Chão (Flexão Modificada)</h4>
 
-    <p>
-        Manter uma prática constante de flexões pode melhorar o desempenho em outros exercícios e atividades diárias. É um movimento funcional, acessível e extremamente eficiente. Com dedicação, é possível evoluir para variações mais desafiadoras e obter excelentes resultados físicos.
-    </p>
+    <img class ="imgflexao" src = "https://static.movimente.me/media/imgs/exercises/IMG_7886net.JPG">
+
+    <p class = "txtflexao">Ideal para <strong>iniciantes</strong>, essa variação reduz a carga do corpo. Apoie os <strong>joelhos no chão</strong>, mantendo o corpo alinhado do joelho à cabeça. Abaixe o tronco até o peito se aproximar do solo. Ativa o <strong>peitoral maior, tríceps e ombros</strong>, mas com menor intensidade. Ajuda a desenvolver <strong>força e técnica</strong>. Mantenha o <strong>abdômen contraído</strong> e evite deixar os quadris caírem ou empinarem. Boa para <strong>reabilitação ou aquecimento</strong>.</p>
+
+    <h5 class = "titulosflexoes">Flexão Diamante (Diamond Push-Up)</h5>
+
+    <img class = "imgflexao" src= "https://static.tuasaude.com/media/article/tf/ga/flexao-diamante_62890_l.jpg">
+
+    <p class = "txtflexao">Coloque as mãos formando um <strong>“diamante” com os dedos</strong> abaixo do centro do peito. Essa posição aumenta a carga sobre o <strong>tríceps braquial</strong>, embora também ative o <strong>peitoral e deltoides</strong>. Excelente para desenvolver <strong>braços fortes</strong>. Mantenha os <strong>cotovelos próximos ao corpo</strong> e evite sobrecarregar os punhos. Recomendado para quem já domina a flexão tradicional.</p>
+
+    <h6 class = "titulosflexoes">Flexão Declinada</h6>
+
+    <img class = "imgflexao" src= "https://i.ytimg.com/vi/gqMj8o1hWr8/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGUgZShlMA8=&rs=AOn4CLBra3R0WI6k3quJoJ_yo8AbdyavUA">
+
+    <p class = "txtflexao">Com os <strong>pés elevados</strong> em uma superfície, essa flexão foca no <strong>peitoral superior</strong> e nos <strong>deltoides anteriores</strong>. Posicione as mãos na largura dos ombros e mantenha o <strong>abdômen firme</strong>. É uma progressão da tradicional, ideal para <strong>intermediários e avançados</strong>. Desça até formar um ângulo de <strong>90° nos cotovelos</strong>. A elevação dos pés aumenta a dificuldade e intensidade do exercício.</p>
+
+    <h6 class = "titulosflexoes">Flexão Inclinada</h6>
+
+    <img class = "imgflexao" src= "https://meutreinador.com/wp-content/uploads/2023/11/71_Flexao-de-braco-inclinada.jpg">
+
+    <p class = "txtflexao">As <strong>mãos apoiadas em uma superfície elevada</strong> tornam o exercício mais fácil. Ideal para <strong>iniciantes</strong>, essa variação permite aprender a técnica com menos carga. Ativa o <strong>peitoral, tríceps e ombros</strong>, com menor intensidade. O corpo deve permanecer <strong>reto</strong>, e a descida controlada. Pode ser utilizada em <strong>treinos de reabilitação ou aquecimento</strong>. Com o tempo, reduza a altura para progredir.</p>
+
+    <h6 class = "titulosflexoes">Flexão Explosiva (com palmas)</h6>
+
+    <img class = "imgflexao" src= "https://eresdeportista.com/wp-content/uploads/2019/10/ejercicio-pliometrico-flexion-palmada.jpg?auto=webp&quality=45&width=750&crop=16:9">
+
+    <p class = "txtflexao">Essa variação dinâmica exige <strong>potência e coordenação</strong>. Faça a flexão tradicional e, ao subir, <strong>impulsione o corpo para tirar as mãos do chão</strong> e bater palmas. Trabalha o <strong>peitoral, tríceps, ombros</strong> e o <strong>core</strong>, além de desenvolver <strong>explosão muscular</strong>. Ideal para atletas e praticantes mais avançados. A <strong>aterrissagem deve ser suave</strong>, com os cotovelos semiflexionados para absorver o impacto.</p>
+
+    <h6 class = "titulosflexoes">Flexão Arqueada (Archer Push-Up)</h6>
+
+    <img class = "imgflexao" src= "https://i.ytimg.com/vi/opz-UHJc5h0/maxresdefault.jpg">
+
+    <p class = "txtflexao">Uma mão próxima ao tronco, a outra <strong>afastada lateralmente</strong>. Ao descer, a maior carga fica no lado mais próximo, e depois os lados se alternam. Trabalha o <strong>peitoral, tríceps, ombros</strong> e melhora a <strong>força unilateral</strong>. Boa preparação para a <strong>flexão com um braço</strong>. Quanto mais distante estiver a mão, maior a dificuldade. Ajuda a <strong>corrigir desequilíbrios musculares</strong>.</p>
+
+    <h6 class = "titulosflexoes">Flexão com Um Braço (One-Arm Push-Up)</h6>
+
+    <img class = "imgflexao" src= "https://www.wikihow.com/images_en/thumb/6/6a/Do-a-One-Armed-Push-Up-Step-11-Version-2.jpg/v4-760px-Do-a-One-Armed-Push-Up-Step-11-Version-2.jpg">
+
+    <p class = "txtflexao">Extremamente desafiadora, exige <strong>força, equilíbrio e estabilidade</strong>. Uma mão no centro do peito, a outra atrás ou ao lado do corpo. Pernas <strong>bem afastadas</strong> ajudam na estabilidade. Ativa intensamente o <strong>peitoral, tríceps, ombros, core</strong> e estabilizadores. Não deve haver <strong>torção do tronco</strong>. Deve ser feita apenas após domínio de variações anteriores, como a arqueada.</p>
+
+    <h6 class = "titulosflexoes">Flexão Hindu (Hindu Push-Up)</h6>
+
+    <img class = "imgflexao" src= "https://hips.hearstapps.com/hmg-prod/images/hindu-press-up-1653918038.jpg">
+
+    <p class = "txtflexao">Comece no <strong>V invertido</strong>, deslize o corpo para frente em um <strong>movimento em arco</strong>>, terminando com o <strong>peito para cima e quadris baixos</strong>. Trabalha o <strong>peitoral, ombros, tríceps, costas</strong> e o <strong>core</strong>, além de melhorar a <strong>mobilidade</strong>. Comum em yoga e artes marciais, fortalece e alonga ao mesmo tempo. A <strong>coordenação e a respiração</strong> são essenciais para uma execução fluida.</p>
+
+    <h6 class = "titulosflexoes">Flexão Pseudo-Planche</h6>
+
+    <img class = "imgflexao" src= "https://i.ytimg.com/vi/cfMm2rDC0ro/maxresdefault.jpg">
+
+    <p class = "txtflexao" id="lastp">As <strong>mãos são colocadas ao lado da cintura</strong>, voltadas levemente para trás, com o corpo inclinado à frente. Isso intensifica a carga sobre os <strong>ombros</strong> e o <strong>peitoral</strong>. Ativa também <strong>tríceps</strong> e <strong>core</strong>, sendo usada como preparação para a <strong>planche</strong>. Mantenha os <strong>cotovelos junto ao corpo</strong> e controle a inclinação. Altamente avançada, requer boa <strong>base de força e técnica</strong>.</p>
+
+    <p id = "espaco">ㅤ</p>
+
+    </div>
+
+
+

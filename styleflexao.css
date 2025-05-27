@@ -1,0 +1,120 @@
+h1 {
+    text-align:center;
+    font-size:50px;
+    margin-top: 5%;
+
+}
+p {
+    text-align:justify;
+    font-size:27px;
+    margin-left: 10%;
+    margin-right: 10%;
+   
+}
+body {
+   text-align:justify;
+   background: fixed;
+   background-image: linear-gradient(to left top, rgb(0, 0, 0), rgb(119, 32, 224));
+   
+}
+h2 {
+    text-align:center;
+    margin-top:5%;
+    margin-left: 0%;
+    font-size:35px;
+}
+ul {
+    margin-left:10%;
+    font-size:20px;
+}
+#flexao1 {
+    display:block;
+    margin-left: 10%;
+    width: 300px;
+    margin-bottom: 130px;
+    border: solid black 2px;
+    
+}
+
+#flexoes{
+    display: flex;
+}
+
+.titulosflexoes {
+ 
+    text-align:center;
+    font-size:35px;
+    margin-bottom: 6%;
+    margin-top: 6%;
+}
+
+.txtflexao {
+    text-align:justify;
+    font-size:27px;
+    margin-top: 6%;
+    
+}
+
+.imgflexao {
+    display: block;
+    margin-left:35%;
+    width: 450px;
+    border: solid black 2px;
+    padding: 0px;
+}
+
+#link {
+   text-align:justify;
+   font-size:27px;
+   margin-left: 10%;
+   margin-right: 10%; 
+}
+
+#lastp {
+    margin-bottom: 8%;
+}
+
+#paginatoda {
+    background-color: rgba(255, 255, 255, 0.726);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding-top: 1%;
+    padding-bottom: 6%;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    border: solid black 2px;
+    padding: 2px;
+    font-size: 34px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td {
+    border: solid black 1px;
+    padding: 5px;
+}
+
+thead {
+    background-color: lightblue;
+}
+
+.iniciante {
+    background-color: lightgreen;
+}
+
+.intermediario {
+    background-color: orange;
+}
+
+.avancado {
+    background-color: red;
+}
+
+
+
+

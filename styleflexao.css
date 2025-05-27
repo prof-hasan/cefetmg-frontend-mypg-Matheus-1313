@@ -2,13 +2,14 @@ h1 {
     text-align:center;
     font-size:50px;
     margin-top: 5%;
-
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 p {
     text-align:justify;
     font-size:27px;
     margin-left: 10%;
     margin-right: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    
 }
 body {
@@ -26,6 +27,7 @@ h2 {
 ul {
     margin-left:10%;
     font-size:20px;
+    text-decoration-color: black;
 }
 #flexao1 {
     display:block;
@@ -46,6 +48,7 @@ ul {
     font-size:35px;
     margin-bottom: 6%;
     margin-top: 6%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .txtflexao {
@@ -81,6 +84,7 @@ ul {
     margin-top: 5%;
     padding-top: 1%;
     padding-bottom: 6%;
+    border-radius: 15px;
 }
 
 table {
@@ -104,17 +108,27 @@ thead {
 }
 
 .iniciante {
-    background-color: lightgreen;
+    background-color: rgb(195, 236, 195);
 }
 
 .intermediario {
-    background-color: orange;
+    background-color: rgb(241, 215, 166);
 }
 
 .avancado {
-    background-color: red;
+    background-color: rgb(243, 153, 153);
 }
-
+li{
+    line-height: 1.5;
+}
+a {
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+a:hover {
+    color: blueviolet;
+}
 
 
 

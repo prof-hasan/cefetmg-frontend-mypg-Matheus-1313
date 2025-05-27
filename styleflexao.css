@@ -1,0 +1,134 @@
+h1 {
+    text-align:center;
+    font-size:50px;
+    margin-top: 5%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+p {
+    text-align:justify;
+    font-size:27px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+body {
+   text-align:justify;
+   background: fixed;
+   background-image: linear-gradient(to left top, rgb(0, 0, 0), rgb(119, 32, 224));
+   
+}
+h2 {
+    text-align:center;
+    margin-top:5%;
+    margin-left: 0%;
+    font-size:35px;
+}
+ul {
+    margin-left:10%;
+    font-size:20px;
+    text-decoration-color: black;
+}
+#flexaogeral {
+    display:block;
+    margin-left: 15%;
+    width: 300px;
+    margin-bottom: 130px;
+    border: solid black 2px;
+    
+}
+
+#flexoes{
+    display: flex;
+}
+
+.titulosflexoes {
+ 
+    text-align:center;
+    font-size:35px;
+    margin-bottom: 6%;
+    margin-top: 6%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.txtflexao {
+    text-align:justify;
+    font-size:27px;
+    margin-top: 6%;
+    
+}
+
+.imgflexao {
+    display: block;
+    margin-left:35%;
+    width: 450px;
+    border: solid black 2px;
+    padding: 0px;
+}
+
+#link {
+   text-align:justify;
+   font-size:27px;
+   margin-left: 10%;
+   margin-right: 10%; 
+}
+
+#lastp {
+    margin-bottom: 8%;
+}
+
+#paginatoda {
+    background-color: rgba(255, 255, 255, 0.726);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding-top: 1%;
+    padding-bottom: 6%;
+    border-radius: 15px;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    border: solid black 2px;
+    padding: 2px;
+    font-size: 34px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td {
+    border: solid black 1px;
+    padding: 5px;
+}
+
+thead {
+    background-color: lightblue;
+}
+
+.iniciante {
+    background-color: rgb(195, 236, 195);
+}
+
+.intermediario {
+    background-color: rgb(241, 215, 166);
+}
+
+.avancado {
+    background-color: rgb(243, 153, 153);
+}
+li{
+    line-height: 1.5;
+}
+a {
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+a:hover {
+    color: blueviolet;
+}
+
+
+
